@@ -1,0 +1,26 @@
+*{
+  background-color: blue;
+  color: white;
+}
+.container{
+  display: flex;
+}
+
+.inputText{
+  font-size: 2rem;
+}
+.inputText,.outputText{
+  width: 50rem;
+  height: 50rem;
+  
+}
+
+.outputText{
+  border: 1px solid white;
+  background-color: rgba(9, 9, 9, 0.598);
+  font-size: 3rem;
+}
+
+.editor,.display{
+  margin-left: 5%;
+}
